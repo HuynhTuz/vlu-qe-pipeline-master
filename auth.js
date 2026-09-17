@@ -1,4 +1,3 @@
-// Feature: Updated login logic for QE pipeline
 function login(username, password) {
   // Tai khoan bi khoa
   if (username === 'locked_user') {
@@ -11,7 +10,8 @@ function login(username, password) {
   }
 
   // Dang nhap thanh cong dung thong tin
-  if (username === 'admin' && password === '123'
+  if (username === 'admin' && password === '123') {
+    return true;
   }
 
   return false;
