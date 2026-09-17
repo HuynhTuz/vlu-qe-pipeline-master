@@ -11,8 +11,7 @@ function login(username, password) {
   }
 
   // Dang nhap thanh cong dung thong tin
-  if (username === 'admin' && password === '9999') {
-    return true;
+  if (username === 'admin' && password === '123
   }
 
   return false;
