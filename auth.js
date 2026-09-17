@@ -1,4 +1,3 @@
-// Feature: Updated login logic for QE pipeline
 function login(username, password) {
   // Tai khoan bi khoa
   if (username === 'locked_user') {
